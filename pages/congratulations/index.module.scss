@@ -1,0 +1,45 @@
+@import '../../styles/colors.module.scss';
+
+.page {
+  background-color: $color-primary;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  .card {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .detail {
+      min-height: 290px;
+      min-width: 358px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .image {
+        margin-top: 10px;
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        margin: 0;
+        padding: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 300px;
+      }
+    }
+  }
+}

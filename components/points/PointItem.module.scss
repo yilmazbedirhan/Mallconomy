@@ -1,0 +1,28 @@
+@import '../../styles//colors.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.item {
+  display: flex;
+  flex-direction: column;
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    max-width: 700px;
+    min-width: 287px;
+
+    font-size: 14px;
+
+    h3 {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 500;
+    }
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #00cc00;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.button {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 15px 100px;
+  text-align: center;
+  border-radius: 100px;
+  width: 325px;
+  height: 56px;
+}
+
+.button:hover,
+.button:active {
+  background: #644900;
+  border-color: #644900;
+}
+
+.button:focus {
+  outline: none;
+}

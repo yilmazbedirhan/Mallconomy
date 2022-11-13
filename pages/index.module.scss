@@ -1,0 +1,58 @@
+@import '../styles/colors.module.scss';
+
+.home {
+  margin: 0;
+  background-color: $color-primary;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    h3 {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+
+  .image {
+    margin-top: 2rem;
+  }
+
+  .card {
+    margin: 1rem 1rem;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+
+      h2 {
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 14px;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
