@@ -1,0 +1,7 @@
+# Mallconomy
+
+USED TECHNOLOGIES:
+
+REACT
+NEXT.jS
+SASS
